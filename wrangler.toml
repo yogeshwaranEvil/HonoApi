@@ -1,0 +1,18 @@
+name = "my-app"
+compatibility_date = "2023-12-01"
+
+# [vars]
+# MY_VARIABLE = "production_value"
+
+[[kv_namespaces]]
+binding = "movie"
+id = "5bf58c610a9d4980a980f374eab97ee6"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "movie"
+database_id = "6c757bc2-9c5c-4b62-afcb-82c84df71180"
